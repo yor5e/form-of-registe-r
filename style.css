@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+background: linear-gradient(red, yellow,blue) ;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color:#d11414
+}
+img{
+    height: 100px;
+    width: 310px;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    background: rgb(7, 196, 123);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form h3 {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.immigration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8fbe0d;
+    color: rgb(187, 10, 10);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.immigration-form button:hover {
+    background-color: #87d10f;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+}
